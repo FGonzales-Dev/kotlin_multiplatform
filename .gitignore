@@ -1,0 +1,76 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / packaged files
+*.class
+*.jar
+*.war
+*.ear
+
+# Build system directories
+/build/
+.gradle/
+.idea/
+out/
+
+# Kotlin specific
+*.kotlin_module
+*.log
+
+# IntelliJ IDEA
+*.iml
+.idea/
+.idea/modules.xml
+.idea/*.iml
+.idea/vcs.xml
+.idea/libraries
+*.ipr
+*.iws
+
+# OS-specific files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.orig
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Test results
+/test-results/
+test-results.xml
+
+# Android specific
+*.apk
+*.ap_
+*.dex
+*.keystore
+*.so
+*.cxx/
+*.hprof
+
+# iOS specific
+build/cocoapods/
+Pods/
+*.xcworkspace
+*.xcuserstate
+*.swiftmodule
+*.swiftdoc
+*.hmap
+*.bcsymbolmap
+DerivedData/
+build/XCBuildData/
+
+# Gradle-specific
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/caches/
+.gradle/wrapper/
+.gradle/taskHistory/
